@@ -1,0 +1,63 @@
+import:
+- package: github.com/go-resty/resty
+  version: 13d77a7f95fd8d1bad97c56bf1b8562633c2f01a
+- package: github.com/golang/protobuf
+  subpackages:
+  - protoc-gen-go/descriptor
+  - ptypes/timestamp
+  - ptypes/any
+  - protoc-gen-go/plugin
+  - ptypes/empty
+  - proto
+  - ptypes/struct
+  - ptypes
+  - protoc-gen-go/generator
+  - protoc-gen-go/generator/internal/remap
+  - jsonpb
+  - ptypes/duration
+  version: 9c8fb7a95075eb047ab75e702de52f68ff360f17
+- package: google.golang.org/grpc
+  subpackages:
+  - resolver/passthrough
+  - transport
+  - tap
+  - balancer/base
+  - credentials
+  - internal
+  - balancer
+  - resolver/dns
+  - status
+  - naming
+  - grpclog
+  - grpclb/grpc_lb_v1/messages
+  - keepalive
+  - codes
+  - balancer/roundrobin
+  - ''
+  - encoding
+  - stats
+  - encoding/proto
+  - resolver
+  - metadata
+  - peer
+  - connectivity
+  version: 13975c070286c7371aa3a8b3c230e90d7bf029fc
+- package: golang.org/x/net
+  subpackages:
+  - context
+  - http2
+  - publicsuffix
+  - http2/hpack
+  - trace
+  version: e0c57d8f86c17f0724497efcb3bc617e82834821
+- package: google.golang.org/genproto
+  subpackages:
+  - googleapis/rpc/status
+  - googleapis/api/annotations
+  version: 11c7f9e547da6db876260ce49ea7536985904c9b
+- package: github.com/rogpeppe/fastuuid
+  version: 6724a57986aff9bff1a1770e9347036def7c89f6
+- package: github.com/golang/glog
+  version: 23def4e6c14b4da8ac2ed8007337bc5eb5007998
+package: github.com/grpc-ecosystem/grpc-gateway
+
